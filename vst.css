@@ -1,0 +1,32 @@
+/* vistula.css - główny plik CSS VistulaCSS frameworka */
+@import 'variables';
+@import 'reset';
+@import 'typography';
+@import 'layout';
+@import 'components';
+@import 'menu';
+
+/* variables.css - plik z ustawieniami zmiennych CSS */
+:root {
+  --primary-color: #333;
+  --secondary-color: #666;
+  --background-color: #fff;
+  --text-color: #333;
+  --border-color: #ddd;
+  --radius: 4px;
+}
+
+/* reset.css - plik z resetowaniem stylów CSS */
+/* ... */
+
+/* typography.css - plik z ustawieniami czcionek i odstępów */
+/* ... */
+
+/* layout.css - plik z ustawieniami rozmiarów i pozycji elementów */
+/* ... */
+
+/* components.css - plik z ustawieniami komponentów VistulaCSS frameworka */
+/* ... */
+
+/* menu.css - plik z ustawieniami menu oraz navbar */
+/* ... */
