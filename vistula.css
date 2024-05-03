@@ -282,9 +282,40 @@ a:hover {
     }
 
 /* Styl głównej zawartości */
-.vst-main {
-  /* ... */
+.vst-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -1rem;
+  margin-left: -1rem;
 }
+
+.col-1,
+.col-7,
+.col-1 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+  flex: 1 0 0%;
+}
+
+.col-1 {
+  flex: 0 0 15%;
+  max-width: 15%;
+}
+
+.col-7 {
+  flex: 0 0 70%;
+  max-width: 70%;
+}
+
+@media (max-width: 768px) {
+  .col-1,
+  .col-7,
+  .col-1 {
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+}
+
 
 /* Styl obrazka */
 .vst-image {
